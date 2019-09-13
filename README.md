@@ -102,7 +102,7 @@ the environment due to calcification, we need to calculate the gradient anew for
 each value of the relative fraction (fV). The analytical solution for this was derived 
 using the computer algebra provided by sagemath.org.
 
-Ca_bd = (4.0*Ca_out*D_Ca*np.pi*r_cyt + Ca_in*PCa*fV)/(4.0*D_Ca*np.pi*r_cyt + PCa*fV)
+Ca_bd = (4.0* Ca_out* D_Ca* np.pi* r_cyt + Ca_in* PCa* fV)/(4.0*D_Ca* np.pi* r_cyt + PCa* fV)
 
 Active calcium transport via a Ca-ATPase appears at a stoichiometry of 2 calcium 
 ions being transported under hydrolysis of one ATP. The energetic cost 

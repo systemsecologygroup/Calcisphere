@@ -39,12 +39,17 @@ The maximum possible calcium flux with this density of calcium channels and the 
 area of the considered cell.
 
 #r_cyt=10.0e-6 # diameter of calcispheres is around 20 micrometers
+
 r_cyt=2.5e-6 # diameter of E. huxleyi is around 5 micrometers (Harvey et al 2015)
+
 A_cyt=4.0*np.pi*r_cyt**2.0 # cell surface in m2
 
 I_Ca=N*i # 1.8e20 Ca ions m-2 s-1
+
 N_A=6.0221367e23 # ions per mol
+
 J_Ca=I_Ca/N_A # 2.98e-4 mol Ca m-2 s-1 (as maximum flux)
+
 F_Ca=J_Ca*A_cyt # 2.3475e-14 mol s-1
 
 Since this flux is driven by the calcium gradient over the membrane, we can calculate the permeability of the membrane (PCa).
@@ -58,7 +63,9 @@ per one hour as estimated by (Holtz et al 2013). The original
 observation is from Paasche. The diffusion coefficient for calcium is set after Li and Gregory (1973).
 
 Ca_bd=Ca_out-QCa/(4.0*np.pi*r_cyt*D_Ca)
+
 QCa=6.11e-18 # 22 fmol h-1 -> 6.11e-18 mol s-1
+
 D_Ca=7.93e-6/10000.0 # cm2 s-1 -> m2 s-1 (after Li and Gregory 1974)
 
 

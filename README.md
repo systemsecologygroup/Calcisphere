@@ -110,7 +110,9 @@ is apparently relatively low when compared to the calcium flux in snail axons.
 
 
 
-
+<p align="center">
+  <img src="figure_3.png" width="500">
+</p>
 
 
 

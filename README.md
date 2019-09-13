@@ -35,7 +35,7 @@ The ion flux for one calcium channel is 1pA, which corresponds to 3.0e6 divalent
 
 i=3.0e6 # Ca2+ s-1 channel-1
 
-The density of calcium channels on the cell surface then determine the maximal flux 
+The density of calcium channels on the cell surface then determines the maximal flux 
 of calcium ions entering the cytoplasm. It is generally believed that for coccolithophores 
 to calcify, the calcium flux needs to be very high. However, the density of calcium 
 channels on the plasma membrane is not known for calcifying nannoplankton. We 
@@ -43,7 +43,10 @@ therefore use the highest known density of calcium channels on snail axons (Tsie
 as a potential example to relate the observed calcium flux required for coccolithophore 
 calcification to a possible calcium influx as observed in the animal kingdom.
 
-N=1.0e12 # channels m-2
+
+# channel density up to 30-60 per mum-2 in snail axons (Tsien 1983)
+
+N=1.0e12 # channels m-2; so, we are actually one order of magnitude lower than for snail axons
 
 The maximum possible calcium flux with this density of calcium channels and the ion 
 flux per channel is 2.3475e-14 mol s-1 given the surface area of the considered cell.
@@ -97,24 +100,19 @@ the channels. But since the concentration at the cell surface is directly depend
 on the intensity of the flux into the vesicles that is removing calcium ions from 
 the environment due to calcification, we need to calculate the gradient anew for 
 each value of the relative fraction (fV). The analytical solution for this was derived 
-using the computer algebra provided by sagemath.org (see the file calcification_energetics_sage.py).
+using the computer algebra provided by sagemath.org.
+
+Ca_bd = (4.0*Ca_out*D_Ca*np.pi*r_cyt + Ca_in*PCa*fV)/(4.0*D_Ca*np.pi*r_cyt + PCa*fV)
 
 Active calcium transport via a Ca-ATPase appears at a stoichiometry of 2 calcium 
 ions being transported under hydrolysis of one ATP. The energetic cost 
 for calcium transport is therefore 0.5 mol ATP per mol Ca. The energetic costs are 
 then plotted over varying fV from 0 to 100 %. The plotted dots in the figure indicate the apparent 
 situation when assuming a calcification flux of 22 fmol h-1 and show that this flux 
-is apparently relatively low when compared to the calcium flux in snail axons.
-
-
-
+is apparently on the lower end when compared to the possible calcium flux in snail axons.
 
 
 <p align="center">
   <img src="figure_3.png" width="500">
 </p>
-
-
-
-
 

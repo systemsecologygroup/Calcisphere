@@ -5,16 +5,15 @@ plasma membrane in calcifying nannoplankton.
 # General description
 This code calculates the energy required to maintain calcium homeostasis in single 
 celled organisms like calcifying nannoplankton. In order to maintain calcium 
-homeostasis, a cell must export as many calcium ions as are entering the cytoplasm. 
+homeostasis, a cell must export as many calcium ions as the number of calcium ions entering the cytoplasm. 
 Calcium enters the cell via channels that can be either opened or closed. The 
 channels are relatively large pores that allow for a fast entry of calcium into 
-the cell. The spike of increased intracellular calcium due to opening of the channels 
-is used for intracellular signalling. However, in order to establish the required 
-low intracellular calcium concentrations required for optimal cell functioning, 
-cells use a combination of Na-Ca-exchangers, that have a relatively high maximal 
-transport rate but a low affinity for intracellular calcium, and Ca-ATPases that 
-due to a higher affinity for intracellular calcium are able to draw down intracellular 
-calcium to micromolar concentrations. Since active ion transport requires energy 
+the cell. The spike of increased intracellular calcium due to the opening of channels 
+is used for intracellular signalling. However, in order to meet the requirement of 
+low intracellular calcium concentrations for optimal cell functioning, 
+cells use a combination of Na-Ca-exchangers (with a relatively high maximal 
+transport rate but a low affinity for intracellular calcium) and Ca-ATPases to keep intracellular 
+calcium to low (micromolar) concentrations. Since active ion transport requires energy 
 in the form of ATP, we use this to estimate the energy required to establish a 
 balance between passive influx and active export.
 
@@ -22,27 +21,26 @@ balance between passive influx and active export.
 In our model we assume that, in order to establish calcium homeostasis, the active 
 ion transport equals passive calcium entry through the channels. The channels are 
 simulated with a constant permeability that depends on the concentration gradient over 
-the plasma membrane. Since intracellular calcium concentrations are usually in the 
-micromolar range but extracellular calcium is around 10mM in the ocean, this gradient 
-is driving the calcium influx.
+the plasma membrane. Since intracellular calcium concentrations are usually very low (in the 
+micromolar range) and extracellular calcium (i.e. in seawater) is around 10 mM, the resulting gradient 
+drives calcium into the cell.
 
-Ca_out=10.0 # mM; extracellular calcium concentration in the ocean 10 mM=10e-3 mol L-1 
+Ca_out = 10.0   # mM; extracellular (seawater) calcium concentration 10 mM=10e-3 mol L-1 
 
-Ca_in=0.10e-3 # mM; intracellular calcium concentration
+Ca_in = 0.10e-3 # mM; intracellular calcium concentration
 
 
-The ion flux for one calcium channel is 1pA, which corresponds to 3.0e6 divalent ions per second (Tsien 1983).
+The ion flux for one calcium channel is 1 pA, which corresponds to 3.0e6 divalent ions per second (Tsien, 1983).
 
-i=3.0e6 # Ca2+ s-1 channel-1
+i = 3.0e6       # Ca2+ s-1 channel-1
 
-The density of calcium channels on the cell surface then determines the maximal flux 
+The density of calcium channels on the cell surface  determines the maximal flux 
 of calcium ions entering the cytoplasm. It is generally believed that for coccolithophores 
 to calcify, the calcium flux needs to be very high. However, the density of calcium 
 channels on the plasma membrane is not known for calcifying nannoplankton. We 
-therefore use the highest known density of calcium channels on snail axons (Tsien 1983) 
+therefore use the highest known density of calcium channels on snail axons (Tsien, 1983) 
 as a potential example to relate the observed calcium flux required for coccolithophore 
 calcification to a possible calcium influx as observed in the animal kingdom.
-
 
 #channel density up to 30-60 per mum-2 in snail axons (Tsien 1983)
 

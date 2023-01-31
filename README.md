@@ -114,6 +114,5 @@ is apparently on the lower end when compared to the possible calcium flux in sna
   <img src="SF8.pdf" width="500">
 </p>
 
-[SF8.pdf](https://github.com/systemsecologygroup/calcisphere/files/10551206/SF8.pdf)
 
 

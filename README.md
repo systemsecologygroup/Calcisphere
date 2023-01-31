@@ -111,6 +111,6 @@ is apparently on the lower end when compared to the possible calcium flux in sna
 
 
 <p align="center">
-  <img src="figure_3.png" width="500">
+  <img src="SF8.pdf" width="500">
 </p>
 

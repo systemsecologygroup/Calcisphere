@@ -46,9 +46,9 @@ as a potential example to relate the observed calcium flux required for coccolit
 calcification to a possible calcium influx as observed in the animal kingdom.
 
 ```python
-# channel density up to 30-60 per mum-2 in snail axons (Tsien 1983)
+# channel density up to 30-60 per &mum-2 in snail axons (Tsien 1983)
 
-N = 1.0e12      # channels m-2; so, we are actually one order of magnitude lower than for snail axons
+N = 1.0e12      # channels m-2; 
 ```
 
 The maximum possible calcium flux with this density of calcium channels and the ion 

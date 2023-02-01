@@ -118,15 +118,15 @@ Ca_bd = (4.0 * Ca_out * D_Ca * np.pi * r_cyt + Ca_in * PCa * fV) / (4.0 * D_Ca *
 Active calcium transport via a Ca-ATPase appears at a stoichiometry of 2 calcium 
 ions being transported against the hydrolysis of one ATP. The energetic cost 
 for calcium transport is therefore 0.5 mol ATP per mol Ca. The energetic costs are 
-then plotted over varying fV from 0 to 100 % (Figure 1). The plotted dots in the figure indicate the apparent 
+then plotted over varying fV from 0 to 100 % (Figure 1). The dots in the figure indicate the apparent 
 situation when assuming a calcification flux of 22 fmol h<sup>-1</sup> and show that this flux 
 is apparently on the lower end when compared to the possible calcium flux in snail axons.
 
 
-
 <figure><p align="center"><img src="SF8n.png" width="600"></p>
-<figcaption>Figure 1. Energy required for maintaining intracellular calcium homeostasis as a function of the fraction of Ca<sup>2+</sup> pumped into the vesicle (fV in the code)</figcaption>
+<figcaption>Figure 1. Energy required for maintaining intracellular calcium homeostasis as a function of the fraction of Ca<sup>2+</sup> ions pumped into the vesicle (fV in the code)</figcaption>
 </figure>
+
 
 # References
 * Harvey, E.L., Bidle, K.D., and Johnson, M.D. (2015). Consequences of strain variability and calcification in *Emiliania huxleyi* on microzooplankton grazing. *Journal of Plankton Research*, **37**, 1137–1148.

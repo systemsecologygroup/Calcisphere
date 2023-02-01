@@ -26,7 +26,7 @@ the plasma membrane. Since intracellular calcium concentrations are usually very
 drives calcium into the cell.
 
 ```python
-Ca_out = 10.0    # mM; extracellular (seawater) calcium concentration, remember: 10 mM = 10e-3 mol L-1 
+Ca_out = 10.0    # mM; extracellular (seawater) calcium concentration, 10 mM = 10e-3 mol L-1 
 
 Ca_in = 0.10e-3  # mM; intracellular calcium concentration
 ```
@@ -62,7 +62,7 @@ r_cyt = 2.5e-6                   # diameter of Emiliania huxleyi is around 5 mic
 
 A_cyt = 4.0 * np.pi * r_cyt**2.0 # cell surface in m2
 
-I_Ca = N * i                     # 1.8e20 Ca ions m-2 s-1
+I_Ca = N * i                     # 1.8e20 Ca2+ ions m-2 s-1
 
 N_A = 6.0221367e23               # ions per mol
 

@@ -129,7 +129,7 @@ is apparently on the lower end when compared to the possible calcium flux in sna
 
 # References
 * Tsien, R.W. (1983). Calcium channels in excitable cell membranes. *Annual Reviews of Physiology*, **45**, 341—-358.
-* Harvey, E.L., Bidle, K.D., and Johnson, M.D. (2015). Consequences of strain variability and calcification in Emiliania huxleyi on microzooplankton grazing. *Journal of Plankton Research*, **37**, 1137–1148.
-* Holtz, L.M., Thoms, S., Langer, G., and Wolf-Gladrow, D.A. (2013). Substrate supply for calcite precipitation in Emiliania huxleyi: Assessment of different model approaches. *Journal of Phycology*, **49**, 417–426.
-* Li, Y.-H. and Gregory, S. (1974). Diffusion of Ions in Sea Water and in Deep Sea Sediments. *Geochimica et Cosmochimica Acta*, **38**, 703–714.
+* Harvey, E.L., Bidle, K.D., and Johnson, M.D. (2015). Consequences of strain variability and calcification in *Emiliania huxleyi* on microzooplankton grazing. *Journal of Plankton Research*, **37**, 1137–1148.
+* Holtz, L.M., Thoms, S., Langer, G., and Wolf-Gladrow, D.A. (2013). Substrate supply for calcite precipitation in *Emiliania huxleyi*: Assessment of different model approaches. *Journal of Phycology*, **49**, 417–426.
+* Li, Y.-H. and Gregory, S. (1974). Diffusion of ions in sea water and in deep sea sediments. *Geochimica et Cosmochimica Acta*, **38**, 703–714.
 

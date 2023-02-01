@@ -123,10 +123,10 @@ situation when assuming a calcification flux of 22 fmol h<sup>-1</sup> and show 
 is apparently on the lower end when compared to the possible calcium flux in snail axons.
 
 
-<p align="center">
-  <img src="SF8n.png" width="600" alt>
-  <em>Energy required for maintaining intracellular calcium homeostasis as a function of the fraction of Ca<sup>2+</sup> pumped into the vesicle (fV in the code)</em>
-</p>
+
+<p align="center"><figure><img src="SF8n.png" width="600">
+<figcaption>Energy required for maintaining intracellular calcium homeostasis as a function of the fraction of Ca<sup>2+</sup> pumped into the vesicle (fV in the code)</figcaption>
+<figure></p>
 
 # References
 * Harvey, E.L., Bidle, K.D., and Johnson, M.D. (2015). Consequences of strain variability and calcification in *Emiliania huxleyi* on microzooplankton grazing. *Journal of Plankton Research*, **37**, 1137–1148.

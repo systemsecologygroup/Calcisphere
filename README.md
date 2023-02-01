@@ -83,23 +83,23 @@ i.e. the calcium concentration of the boundary layer around the cell and not the
 concentration in the open ocean. This concentration is calculated based on the 
 diffusive flux of calcium around the cell as a consequence of calcium depletion 
 due to calcification. For the calcification flux we use the precipitation of one 
-coccolith with 22 fmol per one hour as estimated by (Holtz et al 2013). The original 
+coccolith with 22 fmol per one hour as estimated by ([Holtz et al. 2013](https://onlinelibrary.wiley.com/doi/full/10.1111/jpy.12052)). The original 
 observation is from Paasche. The diffusion coefficient for calcium is set after 
-Li and Gregory (1973).
+[Li & Gregory (1974)](https://www.sciencedirect.com/science/article/pii/0016703774901458).
 
 ```python
 Ca_bd = Ca_out - QCa / (4.0 * np.pi * r_cyt * D_Ca)
 
 QCa = 6.11e-18             # 22 fmol h-1 -> 6.11e-18 mol s-1
 
-D_Ca = 7.93e-6 / 10000.0   # cm2 s-1 -> m2 s-1 (after Li and Gregory 1974)
+D_Ca = 7.93e-6 / 10000.0   # cm2 s-1 -> m2 s-1 (after Li & Gregory 1974)
 ```
 
 As shown here, the calcium concentration at the cell surface (Ca_bd in the code) depends on 
 the balance between the net uptake that is given by the calcification flux 
 (QCa in the code) and the replenishment via diffusion. The value for the calcium concentration 
 at the cell surface as calculated above is specific for a given 
-calcification flux as observed in Emiliania huxleyi (Holtz et al. 2013). In order 
+calcification flux as observed in Emiliania huxleyi ([Holtz et al. 2013](https://onlinelibrary.wiley.com/doi/full/10.1111/jpy.12052)). In order 
 to explore the dependence of energy requirements on the relative amount 
 of ions transported into vesicles, we vary the fraction of ions being transported 
 into vesicles, which determines the absolute calcification flux, and compare it to 

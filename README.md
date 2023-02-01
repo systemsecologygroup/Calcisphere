@@ -62,13 +62,13 @@ r_cyt = 2.5e-6                   # diameter of Emiliania huxleyi is around 5 mic
 
 A_cyt = 4.0 * np.pi * r_cyt**2.0 # cell surface in m2
 
-I_Ca = N*i                       # 1.8e20 Ca ions m-2 s-1
+I_Ca = N * i                     # 1.8e20 Ca ions m-2 s-1
 
 N_A = 6.0221367e23               # ions per mol
 
 J_Ca = I_Ca / N_A                # 2.98e-4 mol Ca m-2 s-1 (as maximum flux)
 
-F_Ca = J_Ca*A_cyt                # 2.3475e-14 mol s-1
+F_Ca = J_Ca * A_cyt              # 2.3475e-14 mol s-1
 ```
 
 Since this flux is driven by the calcium gradient over the membrane, we can calculate 

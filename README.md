@@ -22,11 +22,11 @@ In our model (see: calcification_energetics_values.py) we assume that, in order 
 ion transport equals passive calcium entry through the channels. The channels are 
 simulated with a constant permeability that depends on the concentration gradient over 
 the plasma membrane. Since intracellular calcium concentrations are usually very low (in the 
-micromolar range) and extracellular calcium (i.e. in seawater) is around 10 mM, the resulting gradient 
+&mu;M range) and extracellular calcium (i.e. in seawater) is around 10 mM, the resulting gradient 
 drives calcium into the cell.
 
 ```python
-Ca_out = 10.0    # mM; extracellular (seawater) calcium concentration 10 mM=10e-3 mol L-1 
+Ca_out = 10.0    # mM; extracellular (seawater) calcium concentration, remember: 10 mM = 10e-3 mol L-1 
 
 Ca_in = 0.10e-3  # mM; intracellular calcium concentration
 ```

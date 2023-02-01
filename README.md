@@ -75,7 +75,7 @@ Since this flux is driven by the calcium gradient over the membrane, we can calc
 the permeability of the membrane (PCa in the code).
 
 ```python
-PCa = F_Ca / (Ca_bd - Ca_in).    # because PCa is the rate that leads to this flux given the ion gradient
+PCa = F_Ca / (Ca_bd - Ca_in)     # because PCa is the rate that leads to this flux given the ion gradient
 ```
 
 This calculation uses the calcium concentration directly at the cell surface (Ca_bd in the code), 

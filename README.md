@@ -117,8 +117,7 @@ Ca_bd = (4.0 * Ca_out * D_Ca * np.pi * r_cyt + Ca_in * PCa * fV) / (4.0 * D_Ca *
 
 Active calcium transport via a Ca-ATPase appears at a stoichiometry of 2 calcium 
 ions being transported against the hydrolysis of one ATP. The energetic cost 
-for calcium transport is therefore 0.5 mol ATP per mol Ca. The energetic costs are 
-then plotted over varying fV from 0 to 100 % (Figure 1). The dots in the figure indicate the apparent 
+for calcium transport is therefore 0.5 mol ATP per mol Ca. The energetic costs are plotted over an fV varying from 0 to 100 % (Figure 1). The dots in the figure indicate the apparent 
 situation when assuming a calcification flux of 22 fmol h<sup>-1</sup> and show that this flux 
 is apparently on the lower end when compared to the possible calcium flux in snail axons.
 

@@ -1,4 +1,4 @@
-# calcisphere
+# Calcisphere
 Calculate the energy requirements for calcium transport into vesicles vs over the 
 plasma membrane in calcifying nannoplankton.
 
@@ -53,7 +53,7 @@ N = 1.0e12      # channels m-2;
 ```
 
 The maximum possible calcium flux with this density of calcium channels and the ion 
-flux per channel is 2.3475e-14 mol s<sup>-1</sup> given the surface area of a nannoplankton cell.
+flux per channel is 2.3475e-14 mol s<sup>-1</sup> given the surface area of a nannoplankton cell. The diameter of nannoplankton cell (e.g. Emiliania huxleyi) is around 5 &mu;m ([Harvey et al. 2015](https://academic.oup.com/plankt/article/37/6/1137/2380147))
 
 ```python
 #r_cyt = 10.0e-6                 # diameter of calcispheres is around 20 micrometers
@@ -124,7 +124,10 @@ is apparently on the lower end when compared to the possible calcium flux in sna
 
 
 <p align="center">
-  <img src="SF8n.png" width="650">
+  <img src="SF8n.png" width="600">
 </p>
 
+# References
+Tsien, R.W. (1983). Calcium channels in excitable cell membranes. *Annual Reviews of Physiology* **45**, 341—-358.
+Harvey, E.L., Bidle, K.D., & Johnson, M.D. (2015). Consequences of strain variability and calcification in Emiliania huxleyi on microzooplankton grazing. *Journal of Plankton Research* **37**, 1137–1148.
 

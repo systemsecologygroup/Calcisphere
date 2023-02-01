@@ -18,7 +18,7 @@ in the form of ATP, we use this aspect to estimate the energy needed to establis
 balance between passive influx and active export.
 
 # Model description
-In our model (see: ) we assume that, in order to establish calcium homeostasis, the active 
+In our model (see: calcification_energetics_values.py) we assume that, in order to establish calcium homeostasis, the active 
 ion transport equals passive calcium entry through the channels. The channels are 
 simulated with a constant permeability that depends on the concentration gradient over 
 the plasma membrane. Since intracellular calcium concentrations are usually very low (in the 
@@ -33,7 +33,9 @@ Ca_in = 0.10e-3 # mM; intracellular calcium concentration
 
 The ion flux for one calcium channel is 1 pA, which corresponds to 3.0e6 divalent ions per second (Tsien, 1983).
 
+```python
 i = 3.0e6       # Ca2+ s-1 channel-1
+```
 
 The density of calcium channels on the cell surface  determines the maximal flux 
 of calcium ions entering the cytoplasm. It is generally believed that for coccolithophores 

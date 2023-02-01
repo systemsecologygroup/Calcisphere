@@ -41,7 +41,7 @@ The density of calcium channels on the cell surface  determines the maximal flux
 of calcium ions entering the cytoplasm. It is generally believed that for coccolithophores 
 to calcify, the calcium flux needs to be very high. However, the density of calcium 
 channels on the plasma membrane is not known for calcifying nannoplankton. We 
-therefore use the highest known density of calcium channels on snail axons: 30-60 %mu;<sup>-2</sup> ([Tsien, 1983](https://www.annualreviews.org/doi/10.1146/annurev.ph.45.030183.002013)) 
+therefore use the highest known density of calcium channels on snail axons: 30-60 &mu;<sup>-2</sup> ([Tsien, 1983](https://www.annualreviews.org/doi/10.1146/annurev.ph.45.030183.002013)) 
 as a potential example to relate the observed calcium flux required for coccolithophore 
 calcification to a possible calcium influx as observed in the animal kingdom.
 

@@ -13,8 +13,8 @@ is used for intracellular signalling. However, in order to meet the requirement 
 low intracellular calcium concentrations for optimal cell functioning, 
 cells use a combination of Na-Ca-exchangers (with a relatively high maximal 
 transport rate but a low affinity for intracellular calcium) and Ca-ATPases to keep intracellular 
-calcium to low (micromolar) concentrations. Since active ion transport requires energy 
-in the form of ATP, we use this to estimate the energy required to establish a 
+calcium at low (micromolar) concentrations. Since active ion transport requires energy 
+in the form of ATP, we use this aspect to estimate the energy needed to establish a 
 balance between passive influx and active export.
 
 # Model description
@@ -25,10 +25,11 @@ the plasma membrane. Since intracellular calcium concentrations are usually very
 micromolar range) and extracellular calcium (i.e. in seawater) is around 10 mM, the resulting gradient 
 drives calcium into the cell.
 
+```python
 Ca_out = 10.0   # mM; extracellular (seawater) calcium concentration 10 mM=10e-3 mol L-1 
 
 Ca_in = 0.10e-3 # mM; intracellular calcium concentration
-
+```
 
 The ion flux for one calcium channel is 1 pA, which corresponds to 3.0e6 divalent ions per second (Tsien, 1983).
 

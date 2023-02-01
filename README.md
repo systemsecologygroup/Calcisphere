@@ -124,7 +124,7 @@ is apparently on the lower end when compared to the possible calcium flux in sna
 
 
 <p align="center">
-  <img src="SF8n.png" width="600">
+  <img src="SF8n.png" width="600" alt>
   <em>Energy required for maintaining intracellular calcium homeostasis as a function of the fraction of Ca<sup>2+</sup> pumped into the vesicle (fV in the code)</em>
 </p>
 

@@ -124,9 +124,9 @@ is apparently on the lower end when compared to the possible calcium flux in sna
 
 
 
-<p align="center"><figure><img src="SF8n.png" width="600"></p>
-<figcaption>**Figure 1.** Energy required for maintaining intracellular calcium homeostasis as a function of the fraction of Ca<sup>2+</sup> pumped into the vesicle (fV in the code)</figcaption>
-<figure>
+<p align="center"><figure><img src="SF8n.png" width="600">
+<figcaption>Figure 1. Energy required for maintaining intracellular calcium homeostasis as a function of the fraction of Ca<sup>2+</sup> pumped into the vesicle (fV in the code)</figcaption>
+</figure></p>
 
 # References
 * Harvey, E.L., Bidle, K.D., and Johnson, M.D. (2015). Consequences of strain variability and calcification in *Emiliania huxleyi* on microzooplankton grazing. *Journal of Plankton Research*, **37**, 1137–1148.

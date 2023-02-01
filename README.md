@@ -45,8 +45,10 @@ therefore use the highest known density of calcium channels on snail axons (Tsie
 as a potential example to relate the observed calcium flux required for coccolithophore 
 calcification to a possible calcium influx as observed in the animal kingdom.
 
+&mu; m-2
+
 ```python
-# channel density up to 30-60 per &mu m-2 in snail axons (Tsien 1983)
+# channel density up to 30-60 per &mu;m-2 in snail axons (Tsien 1983)
 
 N = 1.0e12      # channels m-2; 
 ```

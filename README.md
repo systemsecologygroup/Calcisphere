@@ -83,7 +83,7 @@ i.e. the calcium concentration of the boundary layer around the cell and not the
 concentration in the open ocean. This concentration is calculated based on the 
 diffusive flux of calcium around the cell as a consequence of calcium depletion 
 due to calcification. For the calcification flux we use the precipitation of one 
-coccolith with 22 fmol per one hour as estimated by ([Holtz et al. 2013](https://onlinelibrary.wiley.com/doi/full/10.1111/jpy.12052)). The original 
+coccolith with 22 fmol per one hour as estimated by [Holtz et al. (2013)](https://onlinelibrary.wiley.com/doi/full/10.1111/jpy.12052). The original 
 observation is from Paasche. The diffusion coefficient for calcium is set after 
 [Li & Gregory (1974)](https://www.sciencedirect.com/science/article/pii/0016703774901458).
 

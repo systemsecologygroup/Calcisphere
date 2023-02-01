@@ -18,7 +18,7 @@ in the form of ATP, we use this aspect to estimate the energy needed to establis
 balance between passive influx and active export.
 
 # Model description
-In our model we assume that, in order to establish calcium homeostasis, the active 
+In our model (see: ) we assume that, in order to establish calcium homeostasis, the active 
 ion transport equals passive calcium entry through the channels. The channels are 
 simulated with a constant permeability that depends on the concentration gradient over 
 the plasma membrane. Since intracellular calcium concentrations are usually very low (in the 

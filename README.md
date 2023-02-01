@@ -31,7 +31,7 @@ Ca_out = 10.0   # mM; extracellular (seawater) calcium concentration 10 mM=10e-3
 Ca_in = 0.10e-3 # mM; intracellular calcium concentration
 ```
 
-The ion flux for one calcium channel is 1 pA, which corresponds to 3.0e6 divalent ions per second (Tsien, 1983).
+The ion flux for one calcium channel is 1 pA, which corresponds to 3.0e6 divalent ions per second ([Tsien, 1983](https://www.annualreviews.org/doi/10.1146/annurev.ph.45.030183.002013)).
 
 ```python
 i = 3.0e6       # Ca2+ s-1 channel-1
@@ -48,7 +48,7 @@ calcification to a possible calcium influx as observed in the animal kingdom.
 &mu; m-2
 
 ```python
-# channel density up to 30-60 per &mu;m-2 in snail axons (Tsien 1983)
+# channel density up to 30-60 per squared micrometers in snail axons (Tsien 1983)
 
 N = 1.0e12      # channels m-2; 
 ```

@@ -45,13 +45,16 @@ therefore use the highest known density of calcium channels on snail axons (Tsie
 as a potential example to relate the observed calcium flux required for coccolithophore 
 calcification to a possible calcium influx as observed in the animal kingdom.
 
-#channel density up to 30-60 per mum-2 in snail axons (Tsien 1983)
+```python
+# channel density up to 30-60 per mum-2 in snail axons (Tsien 1983)
 
-N=1.0e12 # channels m-2; so, we are actually one order of magnitude lower than for snail axons
+N = 1.0e12      # channels m-2; so, we are actually one order of magnitude lower than for snail axons
+```
 
 The maximum possible calcium flux with this density of calcium channels and the ion 
-flux per channel is 2.3475e-14 mol s-1 given the surface area of the considered cell.
+flux per channel is 2.3475e-14 mol s-1 given the surface area of a nannoplankton cell.
 
+```python
 #r_cyt=10.0e-6 # diameter of calcispheres is around 20 micrometers
 
 r_cyt=2.5e-6 # diameter of E. huxleyi is around 5 micrometers (Harvey et al 2015)
@@ -65,6 +68,7 @@ N_A=6.0221367e23 # ions per mol
 J_Ca=I_Ca/N_A # 2.98e-4 mol Ca m-2 s-1 (as maximum flux)
 
 F_Ca=J_Ca*A_cyt # 2.3475e-14 mol s-1
+```
 
 Since this flux is driven by the calcium gradient over the membrane, we can calculate 
 the permeability of the membrane (PCa).
